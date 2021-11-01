@@ -15,7 +15,8 @@ module.exports={
             filename:'remoteEntry.js',
             exposes:{
                 './TestIndex':'./src/index'
-            }
+            },
+            shared:['faker']
         })
     ]
 }
