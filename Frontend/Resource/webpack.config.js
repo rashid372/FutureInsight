@@ -14,7 +14,7 @@ module.exports={
             name:'resource',
             filename:'remoteEntry.js',
             exposes:{
-                './ResourceIndex':'./src/index'
+                './ResourceIndex':'./src/bootstrap'
             },
             shared:['faker']
         })
