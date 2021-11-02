@@ -1,2 +1,1 @@
-import('./bootstarp')
-console.log('container');
+import('./bootstrap');
