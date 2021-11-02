@@ -39,8 +39,7 @@ bower_components
 build/Release
 
 # Dependency directories
-Container/node_modules/
-Frontend/Dashboard/node_modules/
+node_modules
 
 jspm_packages/
 
