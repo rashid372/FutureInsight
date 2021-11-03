@@ -28,5 +28,5 @@ jobs:
         with:
           azcliversion: 2.0.72
           inlineScript: |
-              az storage blob upload-batch --debug --account-name uistorageabsar --account-key zhMCK0jubTC16KjhL3UeJ77TXiFKeueWb+fZdEojXrc1NjAFmve2nZgoU6/xZVVNQMfHQA3k+aqEe4qvbgp1Hw==  --auth-mode key -d web  -s .       
+              az storage blob upload-batch --debug --account-name uistorageabsar --account-key zhMCK0jubTC16KjhL3UeJ77TXiFKeueWb+fZdEojXrc1NjAFmve2nZgoU6/xZVVNQMfHQA3k+aqEe4qvbgp1Hw==  --auth-mode key -d web  -s ./Frontend/Container/dist       
 
